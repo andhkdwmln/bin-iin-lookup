@@ -1,6 +1,5 @@
 import * as fs from 'fs';
 import { parse } from 'csv-parse';
-import { error } from 'console';
 
 async function ReadData() {
     // Read the CSV file in root
