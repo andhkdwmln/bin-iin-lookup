@@ -1,8 +1,8 @@
-![bin-lookup](https://socialify.git.ci/andhkdwmln/bin-lookup/image?description=1&font=KoHo&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
+![bin-iin-lookup](https://socialify.git.ci/andhkdwmln/bin-iin-lookup/image?description=1&font=KoHo&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
 
 <div align="center">
-  <img alt="GitHub" src="https://img.shields.io/github/license/andhkdwmln/bin-lookup?style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andhkdwmln/bin-lookup?style=for-the-badge">
+  <img alt="GitHub" src="https://img.shields.io/github/license/andhkdwmln/bin-iin-lookup?style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andhkdwmln/bin-iin-lookup?style=for-the-badge">
 </div>
 
 <br>
@@ -27,8 +27,8 @@
 ## 🚀 Quick Setup
 
 - Install `Git` and `NodeJS`
-- Clone Repository `git clone https://github.com/andhkdwmln/bin-lookup`
-- Move to directory `cd bin-lookup`
+- Clone Repository `git clone https://github.com/andhkdwmln/bin-iin-lookup`
+- Move to directory `cd bin-iin-lookup`
 - Install required module `npm install`
 - Build `npm run build`
 - Compiled code inside `lib` folder

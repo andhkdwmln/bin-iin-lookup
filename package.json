@@ -1,5 +1,5 @@
 {
-  "name": "bin-lib",
+  "name": "bin-iin-lookup",
   "version": "1.0.0",
   "main": "./lib/main.js",
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "npm run clean && tsc --build tsconfig.json"
   },
   "repository": {
-    "url": "git+https://github.com/andhkdwmln/bin-lib.git"
+    "url": "git+https://github.com/andhkdwmln/bin-iin-lookup.git"
   },
   "publishConfig": {
     "@andhkdwmln:registry": "https://npm.pkg.github.com"
@@ -23,9 +23,9 @@
     "csv-parse": "^5.5.6"
   },
   "bugs": {
-    "url": "https://github.com/andhkdwmln/bin-lib/issues"
+    "url": "https://github.com/andhkdwmln/bin-iin-lookup/issues"
   },
-  "homepage": "https://github.com/andhkdwmln/bin-lib#readme",
+  "homepage": "https://github.com/andhkdwmln/bin-iin-lookup#readme",
   "directories": {
     "lib": "lib"
   }
