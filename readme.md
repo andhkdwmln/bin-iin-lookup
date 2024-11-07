@@ -45,3 +45,7 @@ const { BinLookup } = require('./lib/index');
 
 })();
 ```
+
+## 🚀 Thanks
+
+- [x] [BIN DB](https://github.com/venelinkochev/bin-list-data)
