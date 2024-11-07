@@ -39,12 +39,14 @@ export async function BinLookup(bin: string) {
     if (record) {
         return {
             bin: bin,
-            brand: record.Brand,
-            type: record.Type,
-            category: record.Category,
-            issuer: record.Issuer,
-            countryCode: record.isoCode2,
-            countryName: record.CountryName
+            data: {
+                brand: record.Brand,
+                type: record.Type,
+                category: record.Category,
+                issuer: record.Issuer,
+                countryCode: record.isoCode2,
+                countryName: record.CountryName
+            }
         }
     } else {
         return {
