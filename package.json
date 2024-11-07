@@ -1,0 +1,19 @@
+{
+  "name": "bin-lookup",
+  "version": "1.0.0",
+  "main": "./lib/main.js",
+  "scripts": {
+    "clean": "rimraf lib && rimraf typings",
+    "build": "npm run clean && tsc --build tsconfig.json"
+  },
+  "author": "Andhika Dwi Maulana",
+  "license": "MIT",
+  "description": "カード番号のBIN/IIN情報を取得するために使用されるツール。",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "rimraf": "^6.0.1"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
