@@ -37,6 +37,7 @@ export async function BinLookup(bin: string) {
     // If record is found, return the specific details; otherwise, return an error message
     if (record) {
         return {
+            success: true,
             bin: bin,
             data: {
                 brand: record.Brand,
@@ -49,8 +50,9 @@ export async function BinLookup(bin: string) {
         }
     } else {
         return {
+            success: false,
             bin: bin,
-            error: 'BIN not found.'
+            data: null
         }
     }
 }
