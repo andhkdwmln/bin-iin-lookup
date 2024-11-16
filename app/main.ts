@@ -1,9 +1,10 @@
 import * as fs from 'fs';
+import * as path from 'path';
 import { parse } from 'csv-parse';
 
 async function ReadData() {
     // Read the CSV file in root
-    const csv = fs.readFileSync('./data/bin.csv', 'utf8');
+    const csv = fs.readFileSync(path.join(__dirname, '../data/bin.csv'), 'utf8');
     // Parse the CSV file into an array of objects
     const records: { BIN: string, Brand: string, Type: string, Category: string, Issuer: string, IssuerPhone: string, IssuerUrl: string, isoCode2: string, isoCode3: string, CountryName: string }[] = await new Promise((resolve, reject) => {
         parse(csv, {
