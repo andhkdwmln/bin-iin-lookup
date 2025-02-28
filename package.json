@@ -1,6 +1,6 @@
 {
   "name": "bin-iin-lookup",
-  "version": "1.0.2",
+  "version": "1.0.2-alpha",
   "main": "./lib/main.js",
   "scripts": {
     "clean": "rimraf lib && rimraf typings",
