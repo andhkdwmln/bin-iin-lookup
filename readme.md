@@ -48,4 +48,4 @@ const { BinLookup } = require('./lib/index');
 
 ## 🚀 Thanks
 
-- [x] [BIN Database Update September 2024](https://github.com/venelinkochev/bin-list-data)
+- [x] [BIN Database Update February 2025](https://github.com/venelinkochev/bin-list-data)
